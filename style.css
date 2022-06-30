@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Bai Jamjuree, sans-serif;
+    font-size: 18px;
+    color: #565f66;
+    background-color: #ffffff;
+}
+h1, h2, h3, p{
+    text-align: center;
+    margin: 0 auto;
+}
+h1, h2, h3{
+    width: 85vw;
+}
+h1{
+    font-size: 1.73em;
+}
+h3{
+    margin-top: 2em;
+}
+p{
+    margin-top: 1em;
+    font-size: 0.88em;
+    color: #b9bdc0;
+    width: 81vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+article > img{
+    margin-top: 3em;
+}
+.header{
+    background: linear-gradient(180deg, transparent, #ffffff 60%), url(./images/bg-header-mobile.png);
+    background-size: cover;
+    text-align: center;
+}
+#logo, .logo-footer{
+    margin-top: 4em;
+}
+.header-texto{
+    margin-top: 4em;
+}
+.botao{
+    margin: 2em 2em 0 2em;
+}
+.download{
+    background-color:#26bba5;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px #249e89;
+    display: block;
+    margin-top: 1.5em;
+    padding: 15px;
+}
+.download:hover{
+    background-color: #33ceb4;
+}
+#cor-botao-mac{
+    background-color: #6174ff;
+    box-shadow: 0 5px 10px #5063d9;
+}
+#cor-botao-mac:hover{
+    background-color: rgb(124, 142, 255);
+}
+.section{
+    margin-top: 7em;
+    text-align: center;
+}
+#computer, #devices{
+    margin-top: 3em;
+    width: 80%;
+}
+.section-3{
+    text-align: center;
+}
+.section-3 h2{
+    margin-top: 4em;
+}
+.div-3-main img{
+    margin-top: 4em;
+}
+#icon-blacklist{
+    margin-top: 6em;
+}
+.div-4-main{
+    margin-top: 8em;
+}
+.logo-company, #logo-company-next{
+    display: block;
+    margin: 0 auto 70px auto;
+}
+#p-next{
+    width: 81vw;
+}
+footer{
+    text-align: center;
+    background-color: #f5f6f8;
+    margin-top: 10em;
+    height: 30em;
+    width: 100%;
+}
+.logo-footer > img{
+    width: 55px;
+    height: 55px;
+    margin-top: 3em;
+}
+.footer-1{
+    margin-top: 2em;
+}
+.footer-1 ul{
+    padding: 0;
+}
+.footer-1 li{
+    padding: 15px;
+}
+li:hover{
+    color: #b5b5b5;
+    cursor: pointer;
+}
+.footer-rede-sociais{
+    margin-top: 2em;
+    text-align: center;
+}
+.footer-rede-sociais ul{
+    padding: 0;
+}
+.footer-rede-sociais li{
+    display: inline;
+    padding: 20px;
+}
+@media (min-width: 855px){
+    h1{
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    p{
+        text-align: center;
+        margin-top: 1em;
+        font-size: 1.17em;
+        color: #b9bdc0;
+        width: 38vw;
+    }
+    .botao{
+        margin-top: 4em;
+    }
+    .download{
+        font-size: 1em;
+        display: inline;
+        margin: 0 10px;
+        padding: 15px 40px;
+    }
+    .section{
+        margin-top: 12em;
+    }
+    .section-1-texto p{
+        width: 43vw;
+    }
+    #computer{
+        float: left;
+        width: 52%;
+        margin: 7em 4em 0 0;
+        transform: translate(-5%);
+    }
+    #step-by-step{
+        padding: 20px;
+        height: 35vw;
+        margin-top: 7vw;
+    }
+    #step-by-step h3{
+        font-size: 1.34vw;
+        text-align: left;
+        margin-top: 3.5em;
+    }
+    #step-by-step p{
+        font-size: 1.17vw;
+        text-align: left;
+        margin-top: 1vw;
+        width: 62vw;
+    }
+    .section-2-texto p{
+        width: 45vw;
+    }
+    #devices{
+        width: 60%;
+    }
+    .div-3-main{
+        margin-top: 6em;
+        height: 12em;
+    }
+    .div-3-main img, #icon-blacklist{
+        margin-top: 0;
+    }
+    .div-3{
+        width: 33vw;
+        float: left;
+        text-align: center;
+        position: relative;
+    }
+    .bloco-texto h3{
+        font-size: 1em;
+        width: 20vw;
+    }
+    .bloco-texto p{
+        width: 25vw;
+        margin-top: 1em;
+    }
+    .div-4-main{
+        margin: 10em 5vw 4em 5vw;
+        width: 90vw;
+        height: 4em;
+    }
+    .logo-company{
+        width: 9vw;
+        display: inline;
+        padding-right: 11.5%;
+    }
+    #logo-company-next{
+        width: 9vw;
+        padding: 0;
+        display: inline;
+        align-items: center;
+    }
+    #p-next{
+        width: 50vw;
+    }
+    footer{
+        height: 10em;
+    }
+    #footer-main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 2vw;
+    }
+    .logo-footer > img{
+        margin-top: -1em;
+    }
+    .footer-1{
+        margin-top: 50px;
+    }
+    .footer-1 ul{
+        margin-right: 15vw;
+        width: 50vw;
+        text-align: left;
+        column-count: 3;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+    }
+    .footer-1 ul > li{
+        margin-bottom: 1vw;
+    }
+    .footer-1 li{
+        padding: 0;
+    }
+    .footer-rede-sociais{
+        margin-top: 40px;
+    }
+    .footer-rede-sociais li{
+        padding: 1vw;
+    }
+}
